@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-content">
+        <h1>ĐĂNG KÝ THÔNG TIN VIỆC LÀM</h1>
+        <menu>Thông tin cá nhân</menu>
+    
+        <div>
+            <label for="name"><span class="mandatory">*</span> Họ & tên :</label>
+            <input type="text" id="name" class="large">
+        </div>
+        <div>
+            <label for="birth"><span class="mandatory">*</span> Ngày tháng năm sinh :</label>
+            <input type="text" name="info" id="birth">
+        </div>
+        <div>
+            <label for="sex">Giới tính :</label>
+            <select name="info" id="sex">
+                <option value="nam">Nam</option>
+                <option value="nu">Nữ</option>
+            </select>
+        </div>
+        <div>
+            <label for="marriage">Tình trạng hôn nhân :</label>
+            <select name="info" id="marriage">
+                <option value="single">Độc thân</option>
+                <option value="married">Đã kết hôn</option>
+            </select>
+        </div>
+    
+        <menu>Thông tin liên lạc</menu>
+        <div>
+            <label for="address"><span class="mandatory">*</span> Địa chỉ :</label>
+            <input type="text" name="contact" id="address" class="larger">
+        </div>
+        <div>
+            <label for="city"><span class="mandatory">*</span> Tỉnh/Thành phố :</label>
+            <input type="text" name="contact" id="city">
+        </div>
+        <div>
+            <label for="phone">Số điện thoại :</label>
+            <input type="text" name="contact" id="phone">
+        </div>
+        <div>
+            <label for="mobile">Số điện thoại di động :</label>
+            <input type="text" name="contact" id="mobile">
+        </div>
+        <div>
+            <label for="email"><span class="mandatory">*</span> Email :</label>
+            <input type="text" name="contact" id="email" class="large">
+        </div>
+    
+        <menu>Trình độ học vấn</menu>
+        <div>
+            <label for="education"><span class="mandatory">*</span> Trình độ học vấn :</label>
+            <select name="edu" id="education">
+                <option value="chon">Chọn</option>
+                <option value="tc">Trung cấp</option>
+                <option value="cd">Cao đẳng</option>
+                <option value="dh">Đại học</option>
+                <option value="ch">Cao học</option>
+            </select>
+        </div>
+        <div>
+            <label for="info-edu"><span class="mandatory">*</span> Thông tin về học vấn :</label>
+            <textarea name="edu" id="info-edu"     cols="80" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="lang">Ngoại ngữ :</label>
+            <textarea name="edu" id="lang" cols="80" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="skill">Kĩ năng :</label>
+            <textarea name="edu" id="skill" cols="80" rows="3"></textarea>
+    
+        <menu>Kinh nghiệm làm việc</menu>
+        <div>
+            <label for="num-exp">Số năm kinh nghiệm :</label>
+            <input type="text" name="exp" id="num-exp">
+        </div>
+        <div>
+            <label for="exp">Kinh nghiệm làm việc :</label>
+            <textarea name="exp" id="exp" cols="80" rows="3"></textarea>
+    
+        <menu class="job">Mong muốn của bản thân</menu>
+        <div class="job">
+            <label>Việc làm mong muốn :</label>
+            <textarea name="desire" id="job" cols="80" rows="3" class="job"></textarea>
+        <div>
+            <label for="salary"><span class="mandatory">*</span> Mức lương thỏa thuận :</label>
+            <input type="text" name="desire" id="salary"> <span id="vnd">VNĐ</span>
+        </div>
+        <!-- <div id="vnd">
+            
+        </div> -->
+
+        <div class="button">
+            <input type="submit" name="submit" id="send" class="but" value="Gửi hồ sơ">
+            <input type="submit" name="submit" id="delete" class="but" value="Xóa Form">
+        </div>
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap 10</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 900px;
+            background-color: rgb(250, 207, 207);
+            padding-left: 50px;
+        }
+
+        div {
+            width: 960px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            width: 920px;
+        }
+
+        table {
+            border-collapse: collapse;
+            position: relative;
+            bottom: 7%;
+        }
+
+        td {
+            border-spacing: 10px;
+        }
+
+        th {
+            height: 100px;
+        }
+
+        #table1,
+        #table1 td,
+        #table1 th {
+            border: 1px solid purple;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        #table1 {
+            height: 412px;
+        }
+
+        #table2 {
+            border: 1px solid black;
+            position: relative;
+            width: 923px;
+            bottom: 29px;
+            border-collapse: separate;
+            padding-bottom: 47px;
+        }
+
+        #slickred {
+            font-size: 60px;
+            text-align: left;
+        }
+
+        #slick {
+            color: white;
+        }
+
+        #menu {
+            background-color: rgb(66, 0, 0);
+            font-size: 15px;
+            color: white;
+            position: relative;
+            top: 2%;
+            width: 920px;
+            height: 30px;
+            margin: 0;
+        }
+
+        #lr {
+            height: 196px;
+            border-collapse: separate;
+            vertical-align: top;
+            font-size: 15px;
+        }
+
+        #left {
+            width: 204px;
+        }
+
+        p {
+            position: absolute;
+            left: 60px;
+            top: 348px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table id="table1">
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th colspan="2" id="slickred">
+                                <span id="slick">Slick</span>Red
+                                <div id="menu">MENU</div>
+                            </th>
+                            <table id="table2">
+                                <tr id="lr">
+                                    <td id="left">LEFT</td>
+                                    <td>RIGHT</td>
+                                </tr>
+                            </table>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <p>FOOTER</p>
+</body>
+
+</html>
