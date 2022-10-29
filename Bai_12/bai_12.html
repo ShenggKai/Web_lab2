@@ -12,6 +12,7 @@
 <body>
     <div class="main-content">
         <h1>ĐĂNG KÝ THÔNG TIN VIỆC LÀM</h1>
+
         <menu>Thông tin cá nhân</menu>
 
         <div>
@@ -81,30 +82,30 @@
         <div>
             <label for="skill">Kĩ năng :</label>
             <textarea name="edu" id="skill" cols="80" rows="3"></textarea>
+        </div>
 
-            <menu>Kinh nghiệm làm việc</menu>
+        <menu>Kinh nghiệm làm việc</menu>
+        <div>
+            <label for="num-exp">Số năm kinh nghiệm :</label>
+            <input type="text" name="exp" id="num-exp">
+        </div>
+        <div>
+            <label for="exp">Kinh nghiệm làm việc :</label>
+            <textarea name="exp" id="exp" cols="80" rows="3"></textarea>
+        </div>
+
+        <menu class="job">Mong muốn của bản thân</menu>
+        <div class="job">
+            <label>Việc làm mong muốn :</label>
+            <textarea name="desire" id="job" cols="80" rows="3" class="job"></textarea>
+
             <div>
-                <label for="num-exp">Số năm kinh nghiệm :</label>
-                <input type="text" name="exp" id="num-exp">
+                <label for="salary"><span class="mandatory">*</span> Mức lương thỏa thuận :</label>
+                <input type="text" name="desire" id="salary"> <span id="vnd">VNĐ</span>
             </div>
-            <div>
-                <label for="exp">Kinh nghiệm làm việc :</label>
-                <textarea name="exp" id="exp" cols="80" rows="3"></textarea>
-
-                <menu class="job">Mong muốn của bản thân</menu>
-                <div class="job">
-                    <label>Việc làm mong muốn :</label>
-                    <textarea name="desire" id="job" cols="80" rows="3" class="job"></textarea>
-                    <div>
-                        <label for="salary"><span class="mandatory">*</span> Mức lương thỏa thuận :</label>
-                        <input type="text" name="desire" id="salary"> <span id="vnd">VNĐ</span>
-                    </div>
-
-                    <div class="button">
-                        <input type="submit" name="submit" id="send" class="but" value="Gửi hồ sơ">
-                        <input type="submit" name="submit" id="delete" class="but" value="Xóa Form">
-                    </div>
-                </div>
+            <div class="button">
+                <input type="submit" name="submit" id="send" class="but" value="Gửi hồ sơ">
+                <input type="submit" name="submit" id="delete" class="but" value="Xóa Form">
             </div>
         </div>
     </div>
